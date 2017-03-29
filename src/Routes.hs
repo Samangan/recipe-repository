@@ -18,9 +18,6 @@ import Models (getRecipe, getRecipes, addRecipe)
 
 routes :: ScottyM ()
 routes = do
-  get "/" $ do
-    json ("TODO" :: String)
-
   get "/recipes" $ do
     rs <- liftIO getRecipes
     json (rs)
