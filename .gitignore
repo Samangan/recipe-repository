@@ -1,3 +1,4 @@
+*.sqlite3*
 dist
 dist-*
 cabal-dev
