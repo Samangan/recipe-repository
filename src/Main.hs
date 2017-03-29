@@ -3,7 +3,6 @@
 module Main where
 
 import Web.Scotty
-import Control.Monad.IO.Class (liftIO)
 
 import Routes (routes)
 import Models (initDb)
